@@ -26,9 +26,12 @@ nav {
   grid-area: nav;
   background: #d5d3d8;
   padding: 10px;
-  font-weight: bold;
   font-size: 15px;
+  color: #151515;
 }
+
+
+  
 
 article {
   grid-area: article;
@@ -44,11 +47,18 @@ footer {
   padding: 10px;
 }
 
- pre {
+ .navp {
     justify-content: center;
     align-items: center;
     display: flex;
- }
+    font-size: 15px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #151515;
+}
+ 
+    
 
  a {
     font-size: 20px;
@@ -61,3 +71,8 @@ footer {
  a:hover {
     color:#c6a364;
  }
+
+ 
+
+
+ 
