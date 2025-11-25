@@ -16,13 +16,18 @@ header {
   grid-area: header;
   background: #151515;
   padding: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
+
 
 nav {
   grid-area: nav;
   background: #d5d3d8;
   padding: 10px;
   font-weight: bold;
+  font-size: 15px;
 }
 
 article {
@@ -38,3 +43,21 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+ pre {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ a {
+    font-size: 20px;
+    color:#151515;
+    text-decoration: none;
+    transition: color 1.0s ease;
+    
+ }
+
+ a:hover {
+    color:#c6a364;
+ }
