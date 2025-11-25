@@ -43,8 +43,12 @@ article {
 footer {
   grid-area: footer;
   background: #151515;
+  color: #c6a364;
   text-align: center;
   padding: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
  .navp {
@@ -55,7 +59,6 @@ footer {
     font-family: "Italiana", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #151515;
 }
  
     
