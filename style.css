@@ -58,7 +58,17 @@ footer {
     font-size: 15px;
     font-family: "Italiana", sans-serif;
     font-weight: 600;
+
+}
+
+h1 {
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
     font-style: normal;
+    color: #151515;
 }
  
     
@@ -73,6 +83,29 @@ footer {
 
  a:hover {
     color:#c6a364;
+ }
+
+ a img {
+     border: 3px solid #d5d3d8;
+ }
+
+ .botão {
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#a20518;
+ }
+
+ p {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  
+ }
+
+ .container {
+  display:flex;
+  gap:10px;
  }
 
  
