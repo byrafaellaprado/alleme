@@ -104,9 +104,17 @@ h1 {
  }
 
  .container {
-  display:flex;
-  gap:10px;
- }
+  display: grid;
+  grid-template-columns: auto auto; 
+  justify-content: center;
+  gap: 10px;
+  grid-row: span 2;
+}
+
+.container a:nth-child(2) {
+  grid-row: span 2;
+}
+
 
  
 
