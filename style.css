@@ -115,6 +115,37 @@ h1 {
   grid-row: span 2;
 }
 
+.minha-tabela {
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+  background: #F0EFF4;
+}
+
+.minha-tabela td {
+  border: 1px solid #c6a364;
+  padding: 10px;
+}
+
+.cadastro {
+  color: #151515;
+  width: 500px; 
+  height: auto;
+  background-color: #F0EFF4;
+  border: 2px solid #c6a364; 
+  border-radius: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+  margin: 20px auto;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
 
  
 
